@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 
-function Project() {
-    return (
-        <div><h3>Project Section</h3></div>
-    );
+
+function Project({classProject}) {
+    return [(
+        <div key={classProject.id}>
+            {classProject.name}
+        </div>
+    )];
 }
 
 export default Project;
