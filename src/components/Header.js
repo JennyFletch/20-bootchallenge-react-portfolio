@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Nav from './Nav';
 
 function Header() {
@@ -6,6 +5,7 @@ function Header() {
         <>
         <header id="header">
             <h1>Jennifer Fletcher</h1>
+          
             <Nav />
         </header>
 

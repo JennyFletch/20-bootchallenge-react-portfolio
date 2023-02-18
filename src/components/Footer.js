@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
+import iconGithub from './assets/icon-github.png'
+import iconLinkedin from './assets/icon-linkedin.png'
+import iconIndeed from './assets/icon-indeed.png'
 
 function Footer() {
     return (
         <footer id="contact">
-
-            <h3>Contact Me</h3>
-
-            <p><a href="tel:555-555-5555">555.555.5555</a></p>
-            <p><a href="mailto:jennyfletcherSLC@gmail.com">jennyfletcherSLC@gmail.com</a></p>
-            <p><a target="_blank" href="https://github.com/JennyFletch">GitHub</a></p>
-            <p><a target="_blank" href="https://www.linkedin.com/in/jennifer-startup-fletcher/">LinkedIn</a></p>
-            <p><a target="_blank" href="https://my.indeed.com/p/jenniferf-2tby03s">indeed</a></p>
-
+            <ul className="soc-net">
+                <li><a target="_blank" rel="noreferrer" href="https://github.com/JennyFletch"><img src={iconGithub} alt="github" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jennifer-startup-fletcher/"><img src={iconLinkedin} alt="linkedin" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://my.indeed.com/p/jenniferf-2tby03s"><img src={iconIndeed} alt="indeed" /></a></li>
+            </ul>
         </footer>
     );
 }

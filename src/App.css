@@ -19,13 +19,13 @@ p {
 }
 
 a {
-  color:#000;
+  color:#000 !important;
   transition:color 0.3s ease;
   font-weight:600;
 }
 
 a:hover {
-  color:#cc0000; 
+  color:#cc0000 !important; 
   text-decoration:underline;
 } 
 
@@ -60,13 +60,13 @@ header ul li {
 }
 
 header ul li a { 
-  color:#fff;
+  color:#fff !important;
   text-decoration:none;
   font-size:1.3rem;
 }
 
 header ul li a:hover { 
-  color:#fff;
+  color:#fff !important;
   text-decoration:underline;
 }
 
@@ -77,7 +77,7 @@ section.hero {
   background-size:100% auto; 
   background-position:right top;
   padding:0 var(--pagemargin);
-  height:386px;
+  height:256px;
   display:flex;
   flex-direction:column-reverse;
 }
@@ -90,7 +90,22 @@ section.hero h2 {
   font-weight:200;
 }
 
-#about h3, #work h3, #contact h3 {
+.bio-outer {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bio-outer .pic {
+  margin-right:40px; 
+}
+
+.bio-outer .pic img {
+  width:240px;
+  height:auto; 
+}
+
+#about h3, #work h3, #contact h3, #contact-info h3 {
   font-size:2.5rem;
   font-weight:200;
   width:100%;
@@ -98,15 +113,14 @@ section.hero h2 {
   margin:25px 0;
 }
 
-#about {
+#about, #work, #contact-info {
   padding:40px var(--pagemargin);
 }
 
 #work {
   display:flex;
-  direction:row;
+  flex-direction:row;
   flex-wrap:wrap;
-  padding:0 var(--pagemargin);
 }
 
 #work a:hover {
@@ -119,7 +133,7 @@ div[class^="card"] {
   background-position:center top;
   background-repeat:no-repeat;
   filter: grayscale(100%);
-  transition:filter 0.3s ease;
+  transition:all 0.4s ease;
   margin-bottom:20px;
   display:flex;
   align-items:flex-end;
@@ -129,44 +143,48 @@ div[class^="card"]:hover {
   text-decoration:none;
 }
 
-div.card-2, div.card-3, div.card-4, div.card-5 {
+div.card-1, div.card-2, div.card-3, div.card-4, div.card-5, div.card-6 {
   width:48%;
   height:200px;
-}
-
-div[class^="card"]:nth-child(even) {
-  margin-left:2%;
+  border:4px solid #000;
 }
 
 div[class^="card"]:nth-child(odd) {
+  margin-left:2%;
+}
+
+div[class^="card"]:nth-child(even) {
   margin-left:0;
   margin-right:2%;
 }
 
 .card-1 { 
   background-image:url(./components/assets/beerfinder.png);
-  width:100%;
-  height:400px;
-  margin-left:0 !important;
+  
 }
 
 .card-2 {
-  background-image:url(./components/assets/sample1.png);
-}
-
-.card-3 {
   background-image:url(./components/assets/screenshot0123.png);
 }
 
+.card-3 {
+  background-image:url(./components/assets/quiz-screenshot.png);
+}
+
 .card-4 {
-  background-image:url(./components/assets/sample4.png);
+  background-image:url(./components/assets/mvc-screenshot.png);
 }
 
 .card-5 {
-  background-image:url(./components/assets/sample5.png);
+  background-image:url(./components/assets/weather-screenshot.png);
+}
+
+.card-6 {
+  background-image:url(./components/assets/planner-screenshot.png);
 }
 
 .card-info {
+  margin-left:0px !important;
   background-color:#000;
   color:#fff;
   font-size:1.25rem;
@@ -210,6 +228,33 @@ div[class^="card"]:nth-child(odd) {
 #contact h3{
   color:#fff;
   border-bottom:2px solid #fff;
+}
+
+footer ul { 
+  list-style:none; 
+  margin:0; 
+  padding:0;
+  text-align:center;
+}
+
+footer ul li { 
+  margin:0; 
+  padding:0 10px 10px 10px;
+  display:inline;
+}
+
+footer ul li a {
+  opacity: .6;
+  transition:opacity 0.4s ease;
+}
+
+footer ul li a:hover {
+  opacity: 1;
+}
+
+footer ul li img { 
+  width:50px;
+  height:auto; 
 }
 
 /* screen-specific styles */
