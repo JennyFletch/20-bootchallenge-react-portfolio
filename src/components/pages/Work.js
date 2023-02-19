@@ -14,7 +14,7 @@ export default function Work() {
         { 
             id:2, 
             name:"Park Hopper", 
-            skills: "NODE / SEQUELIZE / HANDLEBARS / TAILWIND", 
+            skills: "SEQUELIZE / HANDLEBARS / TAILWIND", 
             repo:"https://github.com/MattThurn/Park-Hopper", 
             deployed:"https://park-hopper.herokuapp.com/" 
         }, 
@@ -52,7 +52,7 @@ export default function Work() {
 
     return (
             <section id="work">
-                    <h3>Work</h3>
+                    <h3>Portfolio</h3>
                     <ProjectList classProjects={myProjects} />
             </section>
     );

@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5 {
   text-transform:uppercase;
 }
 
+h4 { 
+  margin-top:45px !important; 
+}
+
 p {
   line-height:150%;
 }
@@ -28,6 +32,38 @@ a:hover {
   color:#cc0000 !important; 
   text-decoration:underline;
 } 
+
+form .form-group, form .form-element {
+  width:750px;
+  max-width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+
+form .form-group input, form .form-group textarea,
+form .form-element input, form .form-element textarea {
+  padding:8px;
+  width:100%;
+}
+
+form .form-group input, form .form-group textarea {
+  max-width:49%;
+}
+
+form input[type="submit"] { 
+  width:150px;
+  border:none; 
+  background-color:#cc0000;
+  color:#fff;
+  font-weight:bold;
+  transition:all 0.4s ease;
+}
+
+form input[type="submit"]:hover { 
+  background-color:#ee0000;
+}
 
 /* page-specific styling */
 
@@ -65,7 +101,8 @@ header ul li a {
   font-size:1.3rem;
 }
 
-header ul li a:hover { 
+header ul li a:hover,
+header ul li a.active { 
   color:#fff !important;
   text-decoration:underline;
 }
@@ -105,7 +142,9 @@ section.hero h2 {
   height:auto; 
 }
 
-#about h3, #work h3, #contact h3, #contact-info h3 {
+#about h3, #work h3, 
+#contact h3, #contact-info h3,
+#resume h3 {
   font-size:2.5rem;
   font-weight:200;
   width:100%;
@@ -113,7 +152,7 @@ section.hero h2 {
   margin:25px 0;
 }
 
-#about, #work, #contact-info {
+#about, #work, #contact-info, #resume {
   padding:40px var(--pagemargin);
 }
 
@@ -134,7 +173,8 @@ div[class^="card"] {
   background-repeat:no-repeat;
   filter: grayscale(100%);
   transition:all 0.4s ease;
-  margin-bottom:20px;
+  margin-bottom:0px;
+  margin-top:20px;
   display:flex;
   align-items:flex-end;
 }
@@ -188,12 +228,13 @@ div[class^="card"]:nth-child(even) {
   background-color:#000;
   color:#fff;
   font-size:1.25rem;
-  padding:8px 20px;
-  width:300px;
+  padding:8px 10px 0 10px;;
+  width:320px;
   max-width:100%;
   overflow-x:hidden;
   cursor:pointer;
-  flex-direction:column;
+  display:flex;
+  flex-direction:row;
 }
 
 .card-info h4, .card-info p {
@@ -203,11 +244,40 @@ div[class^="card"]:nth-child(even) {
   max-width:100%;
 }
 
+.card-info h4 a, .card-info p a, .card-info p a:hover {
+  color:#fff !important; 
+  text-decoration:none;
+  display:block;
+}
+
+.card-info h4 a:hover { 
+  color:#fff !important; 
+  text-decoration:underline !important;
+  display:block;
+}
+
 .card-info p { 
   font-family:'Yanone Kaffeesatz', sans-serif;
   letter-spacing:0.05em; 
   text-transform:uppercase;
   font-weight:200;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+.card-info .repo-link {
+  width:30px;
+  margin:0 14px 8px 0;
+}
+
+.card-info .repo-link img {
+  width:100%;
+  height:auto; 
+}
+
+.card-info .project-info {
+  display:flex;
+  flex-direction:column;
 }
 
 #contact {
@@ -228,6 +298,10 @@ div[class^="card"]:nth-child(even) {
 #contact h3{
   color:#fff;
   border-bottom:2px solid #fff;
+}
+
+.error-text {
+  font-weight:bold;
 }
 
 footer ul { 

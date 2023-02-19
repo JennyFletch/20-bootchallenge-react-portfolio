@@ -4,7 +4,7 @@ function About() {
     return (
             <section id="about">
                 <h3>About Me</h3>
-                <div class="bio-outer">
+                <div className="bio-outer">
                     <div className="pic">
                         <img src={bioPic} alt="Jennifer Fletcher, web developer" />
                     </div>
