@@ -1,6 +1,6 @@
 import './normalize.css';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/pages/About';
@@ -17,7 +17,7 @@ function App() {
         <Header />
           
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route exact path="/" component={<About />} />
             <Route path='/about' element={<About />} />
             <Route path='/portfolio' element={<Work />} />
             <Route path='/contact' element={<Contact />} />

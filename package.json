@@ -1,7 +1,7 @@
 {
   "name": "20-bootchallenge-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://jennyfletch.github.io/20-bootchallenge-react-portfolio",
+  "homepage": "https://jennyfletch.github.io/20-bootchallenge-react-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
