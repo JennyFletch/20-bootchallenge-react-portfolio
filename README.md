@@ -16,7 +16,7 @@ React 17.0.2 is required to run this application.
 
 ## Usage
   
-The deployed application can be found at: 
+The deployed application can be found at: <https://jennyfletch.github.io/20-bootchallenge-react-portfolio>
 ![Alt text](./src/components/assets/screenshot20.png?raw=true "Screenshot of the React portfolio")
 
 ## Credits
