@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/20-bootchallenge-react-portfolio/static/css/main.69929a72.css",
+    "main.js": "/20-bootchallenge-react-portfolio/static/js/main.a3d69776.js",
+    "static/js/787.d847f618.chunk.js": "/20-bootchallenge-react-portfolio/static/js/787.d847f618.chunk.js",
+    "static/media/beerfinder.png": "/20-bootchallenge-react-portfolio/static/media/beerfinder.c668dbad04eb01ac13e2.png",
+    "static/media/screenshot0123.png": "/20-bootchallenge-react-portfolio/static/media/screenshot0123.02f09bebb16f513eca07.png",
+    "static/media/mvc-screenshot.png": "/20-bootchallenge-react-portfolio/static/media/mvc-screenshot.ab5ef79a37f2113370bf.png",
+    "static/media/bio-color-reg.jpeg": "/20-bootchallenge-react-portfolio/static/media/bio-color-reg.179396e06c246dacdcef.jpeg",
+    "static/media/weather-screenshot.png": "/20-bootchallenge-react-portfolio/static/media/weather-screenshot.748177e744d8163385de.png",
+    "static/media/flower.png": "/20-bootchallenge-react-portfolio/static/media/flower.dbdf3db3e580624d035f.png",
+    "static/media/planner-screenshot.png": "/20-bootchallenge-react-portfolio/static/media/planner-screenshot.ff217ca0699206d303df.png",
+    "static/media/quiz-screenshot.png": "/20-bootchallenge-react-portfolio/static/media/quiz-screenshot.14a6b6e36e479ff63968.png",
+    "index.html": "/20-bootchallenge-react-portfolio/index.html",
+    "main.69929a72.css.map": "/20-bootchallenge-react-portfolio/static/css/main.69929a72.css.map",
+    "main.a3d69776.js.map": "/20-bootchallenge-react-portfolio/static/js/main.a3d69776.js.map",
+    "787.d847f618.chunk.js.map": "/20-bootchallenge-react-portfolio/static/js/787.d847f618.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69929a72.css",
+    "static/js/main.a3d69776.js"
+  ]
+}
