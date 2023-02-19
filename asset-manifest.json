@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/20-bootchallenge-react-portfolio/static/css/main.69929a72.css",
-    "main.js": "/20-bootchallenge-react-portfolio/static/js/main.83d13abf.js",
+    "main.js": "/20-bootchallenge-react-portfolio/static/js/main.b90210f0.js",
     "static/js/787.d847f618.chunk.js": "/20-bootchallenge-react-portfolio/static/js/787.d847f618.chunk.js",
     "static/media/beerfinder.png": "/20-bootchallenge-react-portfolio/static/media/beerfinder.c668dbad04eb01ac13e2.png",
     "static/media/screenshot0123.png": "/20-bootchallenge-react-portfolio/static/media/screenshot0123.02f09bebb16f513eca07.png",
@@ -13,11 +13,11 @@
     "static/media/quiz-screenshot.png": "/20-bootchallenge-react-portfolio/static/media/quiz-screenshot.14a6b6e36e479ff63968.png",
     "index.html": "/20-bootchallenge-react-portfolio/index.html",
     "main.69929a72.css.map": "/20-bootchallenge-react-portfolio/static/css/main.69929a72.css.map",
-    "main.83d13abf.js.map": "/20-bootchallenge-react-portfolio/static/js/main.83d13abf.js.map",
+    "main.b90210f0.js.map": "/20-bootchallenge-react-portfolio/static/js/main.b90210f0.js.map",
     "787.d847f618.chunk.js.map": "/20-bootchallenge-react-portfolio/static/js/787.d847f618.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69929a72.css",
-    "static/js/main.83d13abf.js"
+    "static/js/main.b90210f0.js"
   ]
 }
